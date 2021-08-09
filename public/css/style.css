@@ -1,0 +1,115 @@
+.text{
+    width: 180px;
+    height: 25px;
+    position: relative;
+    display: block;
+    margin: 10px 0 0 0 ;
+    border: none;
+    padding: 0 0 0 10px;
+  }
+  
+  #nodeDate{
+    color: blue;
+  }
+  
+  .tip {
+    position: absolute;
+    width: 470px;
+    height: 550px;
+    background: aqua;
+    z-index: 9999;
+  }
+  
+  .header{
+    margin: 0 auto;
+    width: 100%;
+    background: rgb(246, 246, 246);
+    padding-top: 50px;
+  
+  }
+  
+  button{
+    border-radius: 10%;
+  }
+  
+  .headform{
+    margin: 0 auto;
+    width: 1421px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  form{
+    text-align: center;
+    padding: 0;
+    height: 100px;
+  }
+  
+  .container{
+    text-align: center;
+  }
+  
+  .click{
+    background: greenyellow;
+  }
+  
+  table{
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  tr{
+    width: max-content;
+    height: max-content;
+  }
+  
+  td{
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
+    border: lightgray 1px solid;
+    z-index: 1;
+  }
+  
+  h3{
+    width: 150px;
+    text-align: center;
+    vertical-align: center;
+  }
+  
+  .todayColor{
+    background: lightblue;
+  }
+  
+  
+  .playvalue{
+    margin: 0 auto;
+    width: 1421px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .step{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+  }
+  
+  .checkToday{
+    width: max-content;
+    height: 30px;
+    margin-left: 15px;
+  }
+  
+  .after{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    transform: rotate(45grad);
+    border: 2px sienna solid;
+  }
